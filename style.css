@@ -1,0 +1,148 @@
+.main{
+    background-color: #A3EBB1;
+    height: 1500px;
+    width: 100%;
+}
+
+
+.navbar {
+    background-color:#21B6A8;
+    overflow: hidden;
+    height: 94px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .navlogo{
+    height: 90px;
+    width: 280px;
+
+  }
+  
+.logo{
+    background-image: url("aaa.jpg");
+    height: 90px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+.border{
+    border: 2px solid #12f5c4 ;
+    border-radius: 10px;
+}
+.border:hover{
+    border: 2px solid rgb(127, 23, 247)
+}
+
+  
+
+.nav-search{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 40px;
+    width: 720px;background-color:#12f5c4;
+    border-radius: 2px;
+    justify-content: space-evenly;
+
+}
+/* .nav-search:hover{
+    border: 2px dotted rgb(15, 247, 26);
+} */
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; color: #0f1111;
+
+    
+
+}
+.search-select{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+   
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+    
+
+.signup{ margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#75E6DA;
+    border: 2px solid white;
+
+}
+.signup:hover{
+    border: 2px solid greenyellow;
+}
+.login{
+    margin-top: 30px;
+    margin-left:2px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#75E6DA;
+    border: 2px solid white;
+
+}
+.login:hover{
+    border: 2px solid greenyellow;
+}
+
+.secondbar{
+    display: flex;
+    height: 50px;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    align-items: center;
+    /* border: 2px solid white; */
+    border-radius: 4px;
+}
+
+.para1{
+    text-decoration: none;
+    color: #0f1111;
+}
+
+/* .mainphotobox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.mainphoto{
+    background-image: url(aabb.png);
+    height: 1045px;
+    width: 100%;
+    background-size:contain;
+    filter: blur(0px);
+    
+}
+
+
