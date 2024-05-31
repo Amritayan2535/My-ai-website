@@ -136,13 +136,88 @@
     align-items: center;
     justify-content: center;
 } */
-.mainphoto{
+/* .mainphoto{
     background-image: url(aabb.png);
     height: 1045px;
     width: 100%;
     background-size:contain;
     filter: blur(0px);
     
+} */
+/* mainn section */
+.main-section{
+    height: 450px;
+    background-size: cover;
+    background-image: url(dede.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.paragraph{
+    background-color: #75E6DA;
+    color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.paragraph a{
+    color: #007185;
 }
 
+/* shop section */
+.shop-section{display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;
+background-color:#007185 ;}
+.box{width: 20%;
+    
+    height: 400px;
+    background-color:wheat ;
+    padding:20px 0px 15px ;
+    margin-top: 15px;
 
+}
+.boximage{
+    background-size:cover;
+    
+    height: 300px;
+}
+
+.box-content{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.box-content p{
+    color: #007185;
+}
+.foot-panel1{
+    background-color:#007185;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .85rem;
+}
+.foot-panel2{
+    background-color:#007185 ;
+    
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    font-size: .85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.ul{
+    margin-top: 10px;
+}
